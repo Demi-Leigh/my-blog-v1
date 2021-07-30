@@ -124,7 +124,7 @@ def create_blog():
                            "date_created) VALUES(?, ?, ?)", (title, content, date_created))
             conn.commit()
             response["status_code"] = 201
-            response['description'] = "Blog post added succesfully"
+            response['description'] = "Blog post added successfully"
         return response
 
 
